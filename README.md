@@ -25,7 +25,7 @@ Inicie o servidor digitando no terminal
 npm start
 ```
 
-## Testes
+### Testes
 Utilize o postman para as rotas:
 	payload:	
 	{
@@ -33,6 +33,8 @@ Utilize o postman para as rotas:
 		lastName: "",
 		age: 
 	}
+	
+### Rotas
 	- (GET) http://localhost:5000/users -> Retorna lista de usuários registrados
 	- (POST / payload) http://localhost:5000/users -> Criando usuário
 	- (DELETE) http://localhost:5000/:id -> Deleta usuário através do id
